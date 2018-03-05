@@ -7,6 +7,6 @@
     "email": "code@keithlee.co.uk",
     "github_username": "keithlee-co-uk",
     "github_repo_name": "{{cookiecutter.project_name}}",
-    "current_year": "{% now 'utc', %Y %}",
+    "current_year": "{% now 'utc', '%Y' %}",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
