@@ -1,5 +1,5 @@
 {
-    "cookiecutter.project_display_name": "",
+    "project_display_name": "",
     "project_name": "{{cookiecutter.project_display_name.lower().replace(' ', '_')}}",
     "project_short_description": "",
     "version": "0.0.1",
