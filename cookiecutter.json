@@ -1,9 +1,12 @@
 {
-    "full_name": "keith Lee",
+    "cookiecutter.project_display_name": "",
+    "project_name": "cookiecutter.project_display_name.lower().replace(' ', '_')}}",
+    "project_short_description": "",
+    "version": "0.0.1",
+    "full_name": "Keith Lee",
     "email": "code@keithlee.co.uk",
     "github_username": "keithlee-co-uk",
-    "project_name": "",
-    "project_short_description": "",
-    "current_year": "2018",
-    "version": "0.0.1"
+    "github_repo_name": "{{cookiecutter.project_name}}",
+    "current_year": "{% now 'utc', %Y %}",
+    "_extensions": ["jinja2_time.TimeExtension"]
 }
