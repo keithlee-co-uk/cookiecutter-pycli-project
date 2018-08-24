@@ -1,4 +1,4 @@
 -r prod.txt
+python-language-server[all]
 pytest
 flake8
-
