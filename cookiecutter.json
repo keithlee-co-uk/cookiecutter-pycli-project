@@ -9,4 +9,5 @@
     "github_repo_name": "{{cookiecutter.project_name}}",
     "current_year": "{% now 'utc', '%Y' %}",
     "_extensions": ["jinja2_time.TimeExtension"]
+    "_copy_without_render": [".circleci/config.yml"]
 }
